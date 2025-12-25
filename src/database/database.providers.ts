@@ -8,11 +8,11 @@ export const databaseProviders = [
                 type: 'mysql',
                 host: 'localhost',
                 port: 3306,
-                username: 'postgres',
-                password: 'mashud1215',
+                username: 'root',
+                password: 'aboni1215',
                 database: 'testingdb',
                 entities: [
-                    __dirname + '/../**/*.entity{.ts,.js}',
+                    __dirname + '/../**/*.schema{.ts,.js}',
                 ],
                 synchronize: true,
             });
